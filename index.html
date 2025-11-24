@@ -169,6 +169,66 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-FastBin" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2025/11/24/FastBin/" class="article-date">
+  	<time datetime="2025-11-24T12:53:05.344Z" itemprop="datePublished">2025-11-24</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2025/11/24/FastBin/">
+        Fast Bin Attack
+        
+      </a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Fast-Bin-Attack"><a href="#Fast-Bin-Attack" class="headerlink" title="Fast Bin Attack"></a>Fast Bin Attack</h1><h2 id="1-double-free"><a href="#1-double-free" class="headerlink" title="1.double free"></a>1.double free</h2><img src="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205329854.png" alt="image-20251123205329801" style="zoom: 50%;" />
+
+<p>在程序的delete中free后并没有置空就可以使用double free</p>
+<img src="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205634316.png" alt="image-20251123205634284" style="zoom:50%;" />
+
+<p>这个write会将target写入idx0这个堆块的fd中</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+      
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-unsortedbin attack" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">

@@ -3,19 +3,26 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2025/11 | Hexo</title>
+  <title>Fast Bin Attack | Hexo</title>
 
   <!-- keywords -->
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2025/11/index.html">
+  <meta name="description" content="Fast Bin Attack1.double free  在程序的delete中free后并没有置空就可以使用double free   这个write会将target写入idx0这个堆块的fd中">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fast Bin Attack">
+<meta property="og:url" content="http://example.com/2025/11/24/FastBin/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Fast Bin Attack1.double free  在程序的delete中free后并没有置空就可以使用double free   这个write会将target写入idx0这个堆块的fd中">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205329854.png">
+<meta property="og:image" content="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205634316.png">
+<meta property="article:published_time" content="2025-11-24T12:53:05.344Z">
+<meta property="article:modified_time" content="2025-11-24T12:52:45.492Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205329854.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -167,84 +174,86 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-FastBin" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2025" class="archive-year">2025</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2025/11/24/FastBin/" class="archive-article-date">
-  	<time datetime="2025-11-24T12:53:05.344Z" itemprop="datePublished">Nov 24</time>
+    <div class="article-meta">
+      <a href="/2025/11/24/FastBin/" class="article-date">
+  	<time datetime="2025-11-24T12:53:05.344Z" itemprop="datePublished">2025-11-24</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2025/11/24/FastBin/">
-        Fast Bin Attack
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
         
-      </a>
+  
+    <h1 class="article-title" itemprop="name">
+      Fast Bin Attack
+      
     </h1>
   
 
-        <div class="article-info info-on-left">
-          
-          
-
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2025/11/23/unsortedbin%20attack/" class="archive-article-date">
-  	<time datetime="2025-11-23T10:31:54.018Z" itemprop="datePublished">Nov 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2025/11/23/unsortedbin%20attack/">
-        Unsorted Bin Attack
+      </header>
+      
+      <div class="article-info article-info-post">
         
-      </a>
-    </h1>
-  
+        
 
-        <div class="article-info info-on-left">
-          
-          
-
-          
-        </div>
+        
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
+      </div>
+      
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Fast-Bin-Attack"><a href="#Fast-Bin-Attack" class="headerlink" title="Fast Bin Attack"></a>Fast Bin Attack</h1><h2 id="1-double-free"><a href="#1-double-free" class="headerlink" title="1.double free"></a>1.double free</h2><img src="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205329854.png" alt="image-20251123205329801" style="zoom: 50%;" />
+
+<p>在程序的delete中free后并没有置空就可以使用double free</p>
+<img src="https://fastly.jsdelivr.net/gh/Nber8/tuchuang/20251123205634316.png" alt="image-20251123205634284" style="zoom:50%;" />
+
+<p>这个write会将target写入idx0这个堆块的fd中</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2025/11/23/unsortedbin%20attack/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Unsorted Bin Attack</div>
+      <strong class="article-nav-caption">&gt;</strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="ds-share share" data-thread-key="FastBin" data-title="Fast Bin Attack" data-url="http://example.com/2025/11/24/FastBin/"  data-images="/source/img/head.png" data-content="Fast Bin Attack">
+    <div class="ds-share-inline">
+      <ul  class="ds-share-icons-16">
+      	<li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+      </ul>
+      <div class="ds-share-icons-more">
+      </div>
+    </div>
+ </div>
+ 
+
+
+
+
 
 </div>
       <footer id="footer">
@@ -272,8 +281,8 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false
